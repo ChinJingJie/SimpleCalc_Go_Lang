@@ -31,3 +31,6 @@ This application implements a simple command-line calculator in Go. It allows us
 ## Contributing
 * Contributions are welcome! Fork the repository and submit a pull request with your enhancements.
 * Report bugs or suggest features by opening an issue.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
