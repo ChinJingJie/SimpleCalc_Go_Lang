@@ -109,6 +109,10 @@ func main() {
 		fmt.Printf("Is `%g %s %g =` the Mathematical Equation to calculate?", calc.number1, calc.operator, calc.number2)
 		if !getYesNoAnswer("", scanner) {
 			fmt.Println("Current operation cancelled.")
+			fmt.Println("Resetting calculator...")
+			calc.number1 = 0
+			calc.number2 = 0
+			calc.operator = ""
 			continue
 		}
 
